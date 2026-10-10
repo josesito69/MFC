@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791603725410,
+      "tag": "0000_colorful_living_tribunal",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791605290389,
+      "tag": "0001_black_doctor_doom",
+      "breakpoints": true
+    }
+  ]
+}

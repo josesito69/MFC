@@ -1,0 +1,1 @@
+export function eligible(person:{type?:string;role?:string},event:{audience?:string;role_filter?:string}){return (!event.audience||event.audience==='general'||person.type===event.audience)&&(!event.role_filter||(person.role||'').toLocaleLowerCase()===event.role_filter.toLocaleLowerCase());}
